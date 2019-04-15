@@ -13,6 +13,7 @@
 		241C0397226488130070DBA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241C0396226488130070DBA5 /* Assets.xcassets */; };
 		241C039A226488130070DBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241C0398226488130070DBA5 /* LaunchScreen.storyboard */; };
 		241C03A5226488140070DBA5 /* GitRepoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C03A4226488140070DBA5 /* GitRepoDemoTests.swift */; };
+		241C03B0226493910070DBA5 /* MapsForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C03AF226493910070DBA5 /* MapsForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		241C03A0226488140070DBA5 /* GitRepoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241C03A4226488140070DBA5 /* GitRepoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoDemoTests.swift; sourceTree = "<group>"; };
 		241C03A6226488140070DBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241C03AF226493910070DBA5 /* MapsForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				241C038F2264880A0070DBA5 /* AppDelegate.swift */,
 				241C03912264880A0070DBA5 /* ViewController.swift */,
+				241C03AF226493910070DBA5 /* MapsForItinerary.swift */,
 				241C03932264880A0070DBA5 /* Main.storyboard */,
 				241C0396226488130070DBA5 /* Assets.xcassets */,
 				241C0398226488130070DBA5 /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				241C03922264880A0070DBA5 /* ViewController.swift in Sources */,
 				241C03902264880A0070DBA5 /* AppDelegate.swift in Sources */,
+				241C03B0226493910070DBA5 /* MapsForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
