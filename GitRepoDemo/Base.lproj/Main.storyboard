@@ -25,10 +25,18 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kNx-GC-6Po"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLg-LC-djJ">
+                                <rect key="frame" x="166.5" y="104" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cl7-W7-p4x" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="IQm-3U-e4s"/>
+                            <constraint firstItem="vLg-LC-djJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="Lra-7y-lN1"/>
+                            <constraint firstItem="vLg-LC-djJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jRr-8I-Fq6"/>
                             <constraint firstItem="cl7-W7-p4x" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yyp-sd-in8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
